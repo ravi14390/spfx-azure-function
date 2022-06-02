@@ -1,0 +1,46 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxapicall-client-side-solution",
+    "id": "d213676b-1fb1-477c-95c0-2a4a6f93b845",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "daydreamers-azuread",
+        "scope": "user_impersonation"
+      }
+    ],
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfxapicall description"
+      },
+      "longDescription": {
+        "default": "spfxapicall description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfxapicall Feature",
+        "description": "The feature that activates elements of the spfxapicall solution.",
+        "id": "c6d21d05-1f77-4527-84a6-e3f6e8cce5a8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxapicall.sppkg"
+  }
+}

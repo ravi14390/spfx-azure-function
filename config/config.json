@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-api-call-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxApiCall/SpfxApiCallWebPart.js",
+          "manifest": "./src/webparts/spfxApiCall/SpfxApiCallWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxApiCallWebPartStrings": "lib/webparts/spfxApiCall/loc/{locale}.js"
+  }
+}
